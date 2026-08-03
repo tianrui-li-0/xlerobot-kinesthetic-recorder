@@ -149,9 +149,4 @@ lerobot-train \
 - ACT (Action Chunking with Transformers)
 - SmolVLA
 
----
-
-## 许可证
-
-MIT
 
