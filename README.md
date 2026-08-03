@@ -1,6 +1,7 @@
 
 # XLeRobot Kinesthetic Recorder
 
+
 Zero-arm teleoperation data collection for [LeRobot](https://github.com/huggingface/lerobot) / SO-101.
 
 **No leader arm. No VR. No gamepad. Just drag.**
@@ -13,20 +14,31 @@ Official LeRobot teleoperation requires a leader arm, VR headset, or gamepad.
 This project lets you **drag the follower arm directly by hand** to record expert 
 trajectories, then replay and automatically export to LeRobot dataset format.
 
-![UI Screenshot](assets/ui_screenshot.png)  <!-- 你的截图放这里 -->
+<img width="945" height="1269" alt="ui" src="https://github.com/user-attachments/assets/8af5b581-4c87-49ca-8b97-e55c2554a6e2" />
+
 
 ## Hardware
 
 - XLeRobot SO-101 (follower arm only, no leader arm needed)
 - 1-3x USB cameras (head, left_wrist, right_wrist supported)
+- ## ⚠️ Real-World Tips
 
-## Workflow
+### Step 0: Secure Your Robot
 
-1. **Power off** → drag the arm by hand to teach
-2. **Power on** → start recording trajectory
-3. **Reset** to zero position
-4. **Replay** → robot executes autonomously + records synchronized video
-5. **Auto-export** → LeRobot v2.1 dataset (Parquet + MP4 + metadata)
+SO-101 is lightweight. When you drag it by hand, **it will move**.
+We recommend professional-grade stabilization equipment.
+
+![Professional Stabilization Equipment](https://user-images.githubusercontent.com/你的ID/tape.png)
+
+*Figure 1: Advanced anti-slip system (duct tape).*
+
+### Step 1: Open the UI
+
+![Gradio UI](https://user-images.githubusercontent.com/你的ID/ui.png)
+
+*Figure 2: The control panel. Buttons are self-explanatory. If not, click randomly until something moves.*
+
+
 
 ![Teaching Demo](assets/demo.gif)  <!-- 你的GIF放这里 -->
 
