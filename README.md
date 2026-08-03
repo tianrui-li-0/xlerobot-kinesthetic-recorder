@@ -17,7 +17,8 @@ LeRobot 官方的遥操作需要主臂、VR 头盔或者游戏手柄。这个项
 
 SO-101 很轻，拖动的时候**它会跑**。建议使用工业级防滑方案。
 
-![工业级防滑方案](https://user-images.githubusercontent.com/你的ID/tape.png)
+<img width="1706" height="1279" alt="pinned" src="https://github.com/user-attachments/assets/66269de7-3b97-47a3-8313-1c31c3b37fad" />
+
 
 *图 1：专业级固定装置（胶带）。*
 
