@@ -1,4 +1,4 @@
-```markdown
+
 # XLeRobot Kinesthetic Recorder
 
 Zero-arm teleoperation data collection for [LeRobot](https://github.com/huggingface/lerobot) / SO-101.
