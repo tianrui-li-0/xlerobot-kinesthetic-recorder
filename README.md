@@ -6,6 +6,11 @@ Zero-arm teleoperation data collection for [LeRobot](https://github.com/huggingf
 
 **No leader arm. No VR. No gamepad. Just drag.**
 
+<img width="426" height="240" alt="HnVideoEditor_2026_08_03_162920530" src="https://github.com/user-attachments/assets/99780aa7-19f4-43b8-9071-539191576f36" />
+
+
+
+
 [中文说明见下方](#中文说明)
 
 ## Why
@@ -13,8 +18,6 @@ Zero-arm teleoperation data collection for [LeRobot](https://github.com/huggingf
 Official LeRobot teleoperation requires a leader arm, VR headset, or gamepad. 
 This project lets you **drag the follower arm directly by hand** to record expert 
 trajectories, then replay and automatically export to LeRobot dataset format.
-
-<img width="945" height="1269" alt="ui" src="https://github.com/user-attachments/assets/8af5b581-4c87-49ca-8b97-e55c2554a6e2" />
 
 
 ## Hardware
@@ -34,7 +37,9 @@ We recommend professional-grade stabilization equipment.
 
 ### Step 1: Open the UI
 
-![Gradio UI](https://user-images.githubusercontent.com/你的ID/ui.png)
+<img width="426" height="240" alt="HnVideoEditor_2026_08_03_162920530" src="https://github.com/user-attachments/assets/647cb424-260c-4d21-bff9-57db4b986417" />
+<img width="945" height="1269" alt="ui" src="https://github.com/user-attachments/assets/1a2afcd6-09b5-4911-9d9c-705c5d9c2143" />
+
 
 *Figure 2: The control panel. Buttons are self-explanatory. If not, click randomly until something moves.*
 
