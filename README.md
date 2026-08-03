@@ -3,6 +3,9 @@
 > **测试环境：WSL2 (Ubuntu 22.04) + Windows 11**
 **无需主臂，无需 VR，无需手柄，用手拖就行**
 
+
+<img width="426" height="240" alt="HnVideoEditor_2026_08_03_162920530" src="https://github.com/user-attachments/assets/ca99de51-b0ac-48e3-91ce-d6032890a270" />
+
 ---
 
 ## 为什么要做这个
@@ -51,7 +54,8 @@ python xlerobot_kinesthetic_recorder.py
 
 你应该看到这个界面：
 
-![控制面板](https://user-images.githubusercontent.com/你的ID/ui.png)
+<img width="945" height="1269" alt="ui" src="https://github.com/user-attachments/assets/12891cd0-1fa6-4262-ada0-42e1d51689fc" />
+
 
 *图 2：控制面板。按钮一看就懂，看不懂就随便点，点到有反应为止。*
 
