@@ -1,6 +1,6 @@
 
 # XLeRobot 拖动示教录制器
-
+> **测试环境：WSL2 (Ubuntu 22.04) + Windows 11**
 为 [LeRobot](https://github.com/huggingface/lerobot) / SO-101 设计的零成本拖动示教数据采集方案。
 
 **无需主臂。无需 VR。无需手柄。用手拖就行。**
@@ -13,14 +13,17 @@ LeRobot 官方的遥操作需要主臂、VR 头盔或者游戏手柄。这个项
 
 ---
 
+
+
+
+
 ## ⚠️ 第零步：把机器人固定好
 
-SO-101 很轻，拖动的时候**它会跑**。建议使用工业级防滑方案。
+没有底盘的xlerobot很轻，拖动的时候**它会跑**。建议使用专业级固定装置。
 
 <img width="1706" height="1279" alt="pinned" src="https://github.com/user-attachments/assets/66269de7-3b97-47a3-8313-1c31c3b37fad" />
 
-
-*图 1：专业级固定装置（胶带）。*
+*图 1：专业级固定装置。*
 
 ---
 
@@ -36,7 +39,7 @@ lerobot-calibrate --robot.type=so101_follower --robot.port=/dev/ttyACM0 --robot.
 lerobot-calibrate --robot.type=so101_follower --robot.port=/dev/ttyACM1 --robot.id=my_right_arm
 ```
 
-> **WSL2 用户注意**：需要先用 `usbipd` 把 USB 设备 attach 到 WSL2。不会的话搜一下 `usbipd wsl2`，有很多教程。
+> **WSL2 用户注意**：需要先用 `usbipd` 把 USB 设备 attach 到 WSL2。不会的话搜一下 `usbipd wsl2`，有很多教程，或者问问ai。
 
 ---
 
