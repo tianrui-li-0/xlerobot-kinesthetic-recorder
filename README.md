@@ -1,9 +1,9 @@
-
 # XLeRobot 拖动示教录制器
 > **测试环境：WSL2 (Ubuntu 22.04) + Windows 11**
+> 
 为 [LeRobot](https://github.com/huggingface/lerobot) / SO-101 设计的零成本拖动示教数据采集方案。
 
-**无需主臂。无需 VR。无需手柄。用手拖就行。**
+**无需主臂，无需 VR，无需手柄，用手拖就行**
 
 ---
 
